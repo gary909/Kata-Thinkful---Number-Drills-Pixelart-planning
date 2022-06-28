@@ -1,5 +1,9 @@
 function isDivisible(wallLength, pixelSize) {
-    //your code here
+    if (wallLength % pixelSize == 0) {
+        return true
+    } else {
+        return false;
+    }
 }
 
 console.log(isDivisible(4050, 27)); // true
